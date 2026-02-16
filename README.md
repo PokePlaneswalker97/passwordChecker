@@ -5,7 +5,7 @@ Checks the strength of a password using techniques similar to other password str
 
 This program runs a password strength checker on a String inputted by a user. This input is not checked properly for inject attacks (as I understand them). Once a String is input by the user (via enter/return), the String is then checked for length and use of various regEx characters to see if the password is more or less secure. 
 
-As far as I'm aware, the only dependency to run this code is the ability to run python code.
+As far as I'm aware, the only dependency to run this code is the ability to run python code. One method to run it is to open up a terminal, go to the directory where the file itself is stored, and use the command 'python3 passwordChecker.py'. python3 could be switched out for whatever command the user needs to run python code.
 
 This program is for educational purposes only. It does check the user's input against modern password strength checking techniques, but I would recommend using some other strength checker. As previously stated, I have not vetted my code against inject attacks and similar hacking methods.
 
